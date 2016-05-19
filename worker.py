@@ -13,8 +13,4 @@ conn = redis.from_url(redis_url)
 if __name__ == '__main__':
 
     print "Listening to twits..."
-    streaming.get_save_Twits()
-    
-    with Connection(conn):
-        worker = Worker(map(Queue, listen))
-        worker.work()
+    scraper.get_save_Twits()
