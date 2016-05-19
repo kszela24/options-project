@@ -54,5 +54,3 @@ def get_save_Twits():
 			print("Saved twit object ({})".format(twit.objectId))
 		except:
 			print("Twit has already been saved.")
-
-get_save_Twits()
