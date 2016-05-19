@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Options": {
+      "applicationId": "7PdlFRkYtj5kmDaJNIQfGKHOVRCajQKVEfRBWB1e"
+    },
+    "_default": {
+      "link": "Options"
+    }
+  }
+}
