@@ -3,3 +3,5 @@ parse-rest==0.2.20141004
 textblob==0.10.0
 redis==2.10.3
 rq==0.5.6
+bs4==4.4.1
+urllib2==2.7
