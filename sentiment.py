@@ -1,5 +1,5 @@
 from __future__ import division
-import simplejson
+import json
 from textblob import TextBlob
 # http://textblob.readthedocs.org/en/dev/api_reference.html#textblob.blob.TextBlob.sentiment
 
