@@ -18,7 +18,7 @@ def get_save_Twits():
 	url = "http://stocktwits.com/symbol/AAPL?q=%24AAPL"
 
 	content = urllib2.urlopen(url).read()
-	soup = BeautifulSoup(content)
+	soup = BeautifulSoup(content, "lxml")
 	ol = soup.find("ol", {"class": "stream-list show-conversation stream-poller"}).find_all(attrs={"data-src": True})
 	
 
